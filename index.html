@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">   
+  <style>
+  .disabled{
+      background-color:grey!important;
+      color:darkgrey!important;
+      border:none;
+  }
+  .disabled:hover{
+      background-color:grey!important;
+  }
+  </style> 
+</head>
+<body class="w-100 text-center">
+    <h1 class="text-center my-5">Espion opaque</h1>
+      
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-12">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2>Player Name</h2>
+                    <hr>
+                </div>
+                    <div class="col-12"><h3 id="title1">Player name 1</h3></div>
+                    <div class="col-8 py-2">
+                        <input type="textfield" class="text-center add_player" id="1">
+        
+                    </div>
+                    <div class="col-12"><h3 id="title2">Player name 2</h3></div>
+                    <div class="col-8 py-2">
+                        <input type="textfield" class="text-center add_player" id="2">
+                    </div>
+                    <div class="col-12"><h3 id="title3">Player name 3</h3></div>
+                    <div class="col-8 py-2">
+                        <input type="textfield" class="text-center add_player" id="3">
+                    </div>
+                    <div class="col-12"><h3 id="title4">Player name 4</h3></div>
+                    <div class="col-8 py-2">
+                        <input type="textfield" class="text-center add_player" id="4">
+                    </div>
+                    <div class="col-12"><h3 id="title5">Player name 5</h3></div>
+                    <div class="col-8 py-2">
+                        <input type="textfield" class="text-center add_player" id="5">
+                    </div>
+                    
+                    <div class="col-6">
+                        <button class="btn-info validate_name w-100 rounded  p-1 mt-3">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center player_list_div">
+                    <div class="col-12">
+                        <h2>Job list</h2>
+                        <hr>
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" class="h-100 w-100">
+                    </div>
+                    <div class="col-6">
+                        <div class="btn btn-outline-info primary w-75">Ajouter un métier</div>
+                    </div>
+                    <div class="jobs_checkboxes col-10 mt-5 pt-2 w-75 rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+</body>
+<script src="./game.js"></script>
+</html>
